@@ -19,7 +19,7 @@ After `make` command new folder is create, name is "modules", in this folder you
 Next step, load new extension, move in modules folder :
 ```
 echo extension=`pwd`/myext.so >/etc/php5/mods-available/myext.ini
-php5enmod example
+php5enmod myext
 /etc/init.d/apache2 restart
 ```
 
