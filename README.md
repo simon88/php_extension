@@ -29,7 +29,7 @@ Create php file and txt file with some lines. And add this line in your php file
 ```
 <?php
 
-var_dump("file.txt", 1024);
+var_dump(read_file("file.txt", 1024));
 ```
 
 Enjoy, you have new object with an `array` containing all the lines and the number of lines !
